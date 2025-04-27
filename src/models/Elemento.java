@@ -1,10 +1,10 @@
 package models;
 
 public class Elemento {
-    String id;
+    public String id;
     String descricao;
     String dataHora;
-    String nomeCliente;
+    public String nomeCliente;
     String motivo;
 
     public Elemento(String id, String descricao, String dataHora, String nomeCliente, String motivo) {
